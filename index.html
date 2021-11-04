@@ -18,19 +18,22 @@
                 <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tell:+380961111111">+38 096 111 11 11</a>
+        <ul>
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tell:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
 
-        <!--Гирой-->
+        <!--Герой-->
         <section>
             <h1>Эффективные решения для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
         </section>
 
         <!--Особенности-->
-        <Section>
+        <section>
+            <h2 hidden></h2>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -54,9 +57,14 @@
         <!--Чем занимаемся-->
         <section>
             <h2>Чем мы занимаемся</h2>
-            <img src="./images/what-we-do-img1.jpg" alt="what-we-do-img1" width="375" height="302">
-            <img src="./images/what-we-do-img2.jpg" alt="what-we-do-img2" width="370" height="294">
-            <img src="./images/what-we-do-img3.jpg" alt="what-we-do-img3" width="370" height="294">
+            <ul>
+                <li><img src="./images/what-we-do-img1.jpg" alt="what-we-do-img1" width="375" height="302"></li>
+                <li><img src="./images/what-we-do-img2.jpg" alt="what-we-do-img2" width="370" height="294"></li>
+                <li><img src="./images/what-we-do-img3.jpg" alt="what-we-do-img3" width="370" height="294"></li>
+            </ul>
+
+
+
         </section>
 
         <!--Наша команда-->
@@ -65,33 +73,33 @@
             <ul>
                 <li>
                     <img src="./images/team-card1.jpg" alt="mate1" width="270" height="260">
-                    <h5>Игорь Демьяненко</h5>
+                    <h3>Игорь Демьяненко</h3>
                     <p lang="en">Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/team-card2.jpg" alt="mate2" width="276" height="374">
-                    <h5>Ольга Репина</h5>
+                    <h3>Ольга Репина</h3>
                     <p lang="en">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/team-card3.jpg" alt="mate3" width="276" height="374">
-                    <h5>Николай Тарасов</h5>
+                    <h3>Николай Тарасов</h3>
                     <p lang="en">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/team-card4.jpg" alt="mate4" width="276" height="374">
-                    <h5>Михаил Ермаков</h5>
+                    <h3>Михаил Ермаков</h3>
                     <p lang="en">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
+        <a href="">Web<span>Studio</span></a>
         <address>
-            <a href="">Web<span>Studio</span></a>
             <ul>
                 <li>
-                    <a href="https://goo.gl/maps/9mifJz8YDCH2JTNd8" target="_blank"
+                    <a class="address-list__location" href="https://goo.gl/maps/9mifJz8YDCH2JTNd8" target="_blank"
                         rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26
                     </a>
                 </li>
